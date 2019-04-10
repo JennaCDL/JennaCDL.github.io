@@ -465,7 +465,7 @@ button img {
 
 .section-two {
     margin: 12rem auto 0 auto;
-    padding: 19.1rem 2rem 0 2rem;
+    padding: 18rem 2rem 18rem 2rem;
 }
 
 .section-two .center {
@@ -486,7 +486,7 @@ button img {
 
 .section-two .banner h3 {
     padding-top: 5.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .section-two .banner p {
@@ -517,37 +517,17 @@ button img {
 }
 
 
-/* ===== SECTION THREE ====*/
-
-.section-three {
-    max-width: 130rem;
-    padding: 18rem 2rem;
-}
-
-.section-three .ways-to-earn {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 4rem;
-    text-align: center;
-    margin-top: 8rem;
-}
-
-.section-three .ways-to-earn h3 {
-    margin: 2rem auto 2rem auto;
-}
-
-
-/* ==== SECTION FOUR ====*/
+/* ==== SECTION THREE ====*/
 
 #how-it-works{
     padding-top: 17rem;
 }
 
-.section-four .title h3{
+.section-three .title h3{
     margin-bottom: 3rem;
 }
 
-.section-four .title h2{
+.section-three .title h2{
     margin-bottom: 5rem;
 }
 
@@ -609,64 +589,64 @@ button img {
     margin-top: 3rem;
 }
 
-/* ===== SECTION FIVE ====*/
+/* ===== SECTION FOUR ====*/
 
-.section-five {
+.section-four {
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 14.5rem 2rem 16rem 2rem;
     margin: 0 auto;
 }
 
-.section-five .left {
+.section-four .left {
     justify-self: center;
 }
 
-.section-five h3 {
+.section-four h3 {
     margin-bottom: 3rem;
 }
 
-.section-five .item-c {
+.section-four .item-c {
     justify-self: center;
     align-self: end;
 }
 
-.section-five .store-badges img:first-of-type {
+.section-four .store-badges img:first-of-type {
     margin-right: 1.4rem;
 }
 
 
-/* ===== SECTION SIX ====*/
+/* ===== SECTION FIVE ====*/
 
-.section-six {
+.section-five {
     padding: 12rem 2rem 7rem 2rem;
     display: grid;
     max-width: 110rem;
 }
 
-.section-six h2 {
+.section-five h2 {
     margin-bottom: 3.5rem;
 }
 
-.section-six .title h3 {
+.section-five .title h3 {
     margin-bottom: 3rem;
 }
 
-.section-six a{
+.section-five a{
     text-decoration: none;
     color: #000;
 }
 
-.section-six .faq-content {
+.section-five .faq-content {
     text-align: left; 
     margin: 0 auto;
 }
 
-.section-six button {
+.section-five button {
     justify-self: right;
 }
 
-.section-six .faq-content .question-wrapper {
+.section-five .faq-content .question-wrapper {
     display: grid;
     width: 100%;
     padding-bottom: 3rem;
@@ -674,14 +654,14 @@ button img {
 }
 
 
-.section-six .faq-content .question-collapsible .question {
+.section-five .faq-content .question-collapsible .question {
     display: grid;
     grid-auto-flow: column;
     margin:3rem auto 0 auto;
     max-width:90rem;
 }
 
-.section-six .faq-content .question-collapsible .question h4 {
+.section-five .faq-content .question-collapsible .question h4 {
     align-self: center;
     margin-right: 1rem;
 }
@@ -723,12 +703,12 @@ button img {
     margin: 1rem 0;
 }
 
-.section-six .chevron-open{
+.section-five .chevron-open{
     transform: rotate(180deg);  
 }
 
 
-.section-six i{
+.section-five i{
     width: 4rem;
     height: 4rem;
     font-size: 4rem;
