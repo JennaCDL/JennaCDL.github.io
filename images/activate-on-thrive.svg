@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="221" height="32" viewBox="0 0 221 32">
+    <defs>
+        <path id="a" d="M14 0h6v2h-6z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#606E71" font-family="Nunito-Regular, Nunito" font-size="22">
+            <tspan x="0" y="22">Activate on Thrive</tspan>
+        </text>
+        <g transform="translate(189)">
+            <circle cx="16" cy="16" r="16" fill="#E63248" fill-rule="nonzero"/>
+            <g transform="translate(7 14)">
+                <path fill="#FFF" d="M17 2.355c0-.196-.247-.355-.552-.355-.305 0-.552.133-.552.329 0 .012.004.023.005.035-.839 3.213-3.839 5.598-7.401 5.598-3.556 0-6.55-2.376-7.396-5.58v-.001c0-.196-.247-.355-.552-.355-.305 0-.552.133-.552.329 0 .036.01.07.026.105C.924 6.202 4.381 9 8.5 9c4.121 0 7.579-2.8 8.475-6.545a.24.24 0 0 0 .025-.1"/>
+                <mask id="b" fill="#fff">
+                    <use xlink:href="#a"/>
+                </mask>
+                <path fill="#FFF" d="M14 2S15.694-.345 19.33.043c0 0 .86.203.632 1.011 0 0-.144.808-1.362.492 0 0-1.936-.952-4.6.454" mask="url(#b)"/>
+            </g>
+        </g>
+    </g>
+</svg>

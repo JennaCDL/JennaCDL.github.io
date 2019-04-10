@@ -1,0 +1,726 @@
+/*============================MEDIA QUERIES =============================*/
+
+@media only screen and (min-width:1300px) {
+    .sticky .logo {
+        display: inline-block;
+        width: 29.7rem;
+        height: 3.9rem;
+        background-image: url(../images/thrive-rewards-horizontal.svg);
+        background-repeat: no-repeat;
+        text-align: left;
+        margin: 3rem 0rem;
+        overflow: hidden;
+    }
+    /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+        padding-top: 10.2rem;
+    }
+}
+
+@media only screen and (min-width:1100px) and (max-width:1300px) {
+    #main-nav .nav-bar li {
+        margin: 3rem 1.5rem;
+    }
+    #main-nav .nav-bar li:last-of-type {
+        margin: 1.9rem 2rem 1.9rem 2.5rem;
+    }
+    .cta {
+        padding: 1.4rem 2.5rem;
+    }
+    .sticky .logo {
+        display: inline-block;
+        width: 25rem;
+        height: 3.3rem;
+        background-image: url(../images/thrive-rewards-horizontal.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 3.3rem 0 3.3rem 2rem;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1100px) {
+    #main-nav .nav-bar li {
+        margin: 3rem 1rem;
+    }
+    #main-nav .nav-bar li:last-of-type {
+        margin: 1.9rem 2rem 1.9rem 2rem;
+    }
+    .cta {
+        padding: 1.4rem 2rem;
+    }
+    .sticky .logo {
+        display: inline-block;
+        width: 25rem;
+        height: 3.3rem;
+        background-image: url(../images/thrive-rewards-horizontal.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 3.3rem 0 3.3rem 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1130px) {
+    /* ==== SECTION FIVE ACTIVATE ====*/
+    .section-five {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 6rem 2rem 4rem 2rem;
+    }
+    .section-five h3 {
+        text-align: center;
+    }
+    .section-five .item-b {
+        margin-bottom: 6rem;
+    }
+    .section-five .store-badges img {
+        margin: 0 auto;
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .mobile-only {
+        display: none;
+        visibility: hidden;
+        margin: 0rem;
+    }
+    .mobile-only p {
+        display: none;
+    }
+    .mobile-only img {
+        display: none;
+    }
+    #main-nav .nav-bar .mobile-only {
+        margin: 0rem;
+    }
+    .hamburger {
+        display: none;
+        visibility: hidden;
+    }
+    /* Page content */
+    .content {
+        padding: 1.6rem 0rem 0rem 0rem;
+    }
+    /* The sticky class is added to the header with JS when it reaches its scroll position */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .sticky .nav-container ul {
+        display: block;
+        float: right;
+        position: relative;
+    }
+    /* ==== SECTION ONE ====*/
+    
+    .section-one .item-a {
+        grid-column: 1;
+        grid-row: 1 / 2;
+    }
+    .section-one .item-d {
+        grid-column: 2;
+        grid-row: 1 / 4;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    /* RESET DESKTOP NAV*/
+    .thrive-rewards {
+        display: none;
+    }
+    #home {
+        padding: .8rem 0 .8rem 0;
+        width: 100%;
+        margin: 0 auto;
+        text-align: right;
+        position: absolute;
+        z-index: 995;
+    }
+    #main-nav .nav-bar {
+        padding-top: 3.8rem;
+        z-index: 990;
+    }
+    #main-nav .nav-bar li {
+        display: inherit;
+        position: relative;
+        margin: 0rem;
+        clear: both;
+    }
+    /* MOBILE NAV*/
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+    }
+    .activate-on-thrive {
+        float: none;
+        text-align: right;
+        margin: 0rem 0rem 0rem auto;
+        padding-right: 1rem;
+    }
+    .activate-on-thrive a {
+        vertical-align: middle;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        font-weight: 400;
+        line-height: 2.2rem;
+        color: #606E71;
+    }
+    .activate-on-thrive img {
+        vertical-align: bottom;
+        margin-left: .5rem;
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+    .activate-on-thrive img {}
+    .logo {
+        display: inline-block;
+        width: 25rem;
+        height: 3.3rem;
+        background-image: url(../images/thrive-rewards-horizontal.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 3.3rem auto 3.3rem 3.3rem;
+        vertical-align: bottom;
+        float: left;
+    }
+    /* ==== HAMBURGER MENU ===*/
+    .hide {
+        display: none;
+        visibility: hidden;
+    }
+    .away {
+        transform: translate(100vw);
+    }
+    .hamburger {
+        float: right;
+        margin: 3rem 3rem;
+    }
+    .hamburger a {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+    }
+    .hamburger img {
+        width: 4rem;
+        height: 4rem;
+    }
+    /* ==== NAV UL ===*/
+    #nav-items {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #E53248;
+        margin-top: 13.8rem;
+    }
+    #main-nav .nav-bar {
+        height: 14.8rem;
+        padding-top: 4.8rem;
+        ;
+    }
+    #main-nav .nav-bar li {
+        display: block;
+        margin: 4rem 7.5rem;
+    }
+    #main-nav .nav-bar li:first-of-type {
+        margin-top: 0rem;
+    }
+    #main-nav .nav-bar li:nth-child(5) {
+        margin-bottom: 3.4rem;
+    }
+    #main-nav .nav-bar li:last-of-type {
+        margin-top: 0rem;
+    }
+    #main-nav .nav-bar li:nth-child(1n+5) {
+        text-align: center;
+    }
+    #main-nav .nav-container {
+        text-align: left;
+    }
+    .nav-link {
+        font-size: 2.8rem;
+        font-weight: 700;
+        line-height: 3rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .nav-link:hover {
+        color: #000;
+    }
+    .mobile-only div {
+        display: flex;
+        width: 22rem;
+        margin: 0 auto;
+    }
+    .mobile-only p {
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 3rem;
+        color: #000;
+        padding: 0rem 1rem 0rem 0rem;
+        margin: 0rem;
+    }
+    .mobile-only img {
+        width: 3rem;
+        height: 3rem;
+    }
+    .content {
+        padding-top: 3.6rem;
+    }
+    .cta {
+        width: 30rem;
+        margin: 0 auto;
+    }
+    /* ==== GENERAL ====*/
+    .desktop-only {
+        display: none;
+        visibility: hidden;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    /* ==== SECTION ONE ====*/
+    .section-one {
+        padding-top: 20rem;
+    }
+    
+    .section-one .grid-container {
+        grid-template-columns: 40% 60%;
+        grid-row-gap: 1rem;
+        grid-column-gap: 1rem;
+        margin: 0 auto;
+    }
+    
+    .section-one .item-a{
+        grid-column: 1/3;
+    }
+    
+    .section-one .item-b{
+        grid-column: 1 / 3;
+        grid-row: 3 ;
+    }
+    
+    .section-one .item-c{
+        justify-self: center;
+        align-self: center;
+        z-index: 300;
+    }
+    
+    .section-one .item-d{
+        grid-column: 2 / 3;
+        grid-row: 2 ;
+        width: 70%;
+    }
+    
+    
+    /* ==== SECTION FOUR ====*/
+    .slick-initialized .slick-slide {
+        display: grid;
+        grid-auto-flow: row;
+    }
+    .slider .item-a {
+        margin: 0;
+    }
+    .slider .item-a img:first-of-type {
+        width: 0;
+    }
+    .slider .item-a img:nth-of-type(2) {
+        max-width: 33rem;
+        height: auto;
+    }
+    .slide .circle {
+        justify-self: center;
+        margin-top: -5rem;
+    }
+    .slide .item-b {
+        margin: 0;
+        grid-auto-flow: row;
+        justify-content: center;
+    }
+    .slide .item-b .text {
+        margin: 0;
+        text-align: center;
+        margin-top: 1rem;
+        line-height: 4.8rem;
+    }
+    /* ==== FOOTER ====*/
+    footer {
+        padding: 4rem;
+    }
+    footer .store-badges {
+        margin-top: 1rem;
+    }
+    footer .store-badges img {
+        display: block;
+        margin: 1.5rem 0;
+    }
+}
+
+@media only screen and (min-width: 769px){
+     .cell-phone-only {
+        display: none;
+        visibility: hidden;
+        margin: 0rem;
+    }
+    .cell-phone-only p {
+        display: none;
+    }
+    .cell-phone-only img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    /* START OF MEDIAQUERY*/
+    h2 {
+        font-size: 4rem;
+        font-weight: 900;
+        line-height: 4rem;
+        color: #000;
+    }
+    h3 {
+        font-size: 2.8rem;
+        font-weight: 400;
+        line-height: 3.8rem;
+        color: #000;
+    }
+    h5 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        color: #000;
+    }
+    p {
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.2rem;
+        color: #000;
+        padding: 0px;
+    }
+    .nav-link {
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 3rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .nav-link:hover {
+        color: #000;
+    }
+    .cta {
+        padding: 1.2rem 2.4rem;
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0);
+        -webkit-border-radius: 4rem;
+        -moz-border-radius: 4rem;
+        border-radius: 4rem;
+    }
+    #main-nav .nav-bar {
+        display: block;
+        width: 100%;
+        height: 10.8rem;
+        padding-top: 4.8rem;
+    }
+    #main-nav .nav-container {
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+        height: 6rem;
+    }
+    .logo {
+        display: inline-block;
+        width: 16rem;
+        height: 2.1rem;
+        background-image: url(../images/thrive-rewards-horizontal.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 2rem auto 2rem 2rem;
+        vertical-align: bottom;
+        float: left;
+    }
+    
+    .tablet-and-desktop-only {
+        display: none;
+        visibility: hidden;
+        margin: 0rem;
+        padding: 0rem;
+    }
+    
+    #top {
+        padding-top: 9.8rem;
+    }
+    #main-nav .nav-bar li:nth-child(5) {
+        margin-bottom: 2rem;
+    }
+    .cta {
+        width: 25rem;
+    }
+    /* ==== HAMBURGER MENU ===*/
+    .hamburger {
+        float: right;
+        margin: 1.5rem 2rem;
+    }
+    .hamburger a {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+    }
+    .hamburger img {
+        width: 3rem;
+        height: 3rem;
+    }
+    /* ==== NAV UL ===*/
+    #nav-items {
+        margin-top: 9.8rem;
+    }
+    #main-nav .nav-bar li {
+        display: block;
+        margin: 3rem 2.6rem;
+    }
+    .mobile-only div {
+        width: 16.7rem;
+    }
+    .mobile-only p {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.2rem;
+        padding: 0rem .8rem 0rem 0rem;
+    }
+    .mobile-only img {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    #main-nav .nav-bar li:first-of-type {
+        margin-top: 4rem;
+    }
+    .content {
+        padding-top: 0;
+    }
+    /* ===== SECTION ONE ABOUT ====*/
+    .section-one {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 0rem;
+        justify-items: start;
+        padding: 3rem 2rem 0 2rem;
+        margin: 0 auto;
+    }
+    .section-one .left {
+        margin-left: 2rem;
+        grid-row-gap: 1rem
+    }
+    .section-one ul li {
+        grid-auto-flow: row;
+        grid-gap: 0;
+    }
+    .section-one ul li p {
+        margin-top: .4rem;
+    }
+    .section-one h2 {
+        margin: 0;
+    }
+    .badge {
+        width: 20rem;
+        height: 20rem;
+    }
+    .badge img {
+        width: 4rem;
+        height: 4rem;
+        margin: 2.5rem auto 1rem auto;
+    }
+    .badge p:first-of-type {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+    .badge p {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .section-one .item-d {
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+    }
+    /* ===== ANGLED GREY BACKGROUND ====*/
+    .angled-section {
+        position: static;
+        z-index: 1;
+        -webkit-clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
+        clip-path: polygon(0 0, 100% 2%, 100% 98%, 0 100%);
+    }
+    /* ==== SECTION TWO BENEFITS ====*/
+    .section-two {
+        margin: 5rem auto 0 auto;
+        padding: 12rem 2rem 0 2rem;
+    }
+    .section-two .benefits {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        grid-row-gap: 2rem;
+    }
+    .section-two .center {
+        margin-bottom: 1rem;
+    }
+    .section-two .banner {
+        text-align: center;
+        max-width: 106.1rem;
+        margin: 3rem auto;
+        padding: 0;
+    }
+    .section-two .benefits .benefit {
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    .section-two .benefits .benefit div {
+        margin-top: 1rem;
+    }
+    .section-two .benefits .benefit img {
+        margin: 0 auto;
+        width: 6em;
+        height: 6rem;
+    }
+    /* ==== SECTION THREE WAYS TO EARN ====*/
+    .section-three .ways-to-earn {
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+    .section-three .ways-to-earn h3 {
+        margin: 1rem auto 1rem auto;
+    }
+    .section-three .ways-to-earn div {
+        padding-bottom: 2rem;
+    }
+    .section-three .ways-to-earn img {
+        width: 7rem;
+        height: 7rem;
+    }
+    .section-three {
+        padding: 5rem 2rem 12rem 2rem;
+    }
+    /* ==== SECTION FOUR HOW IT WORKS ==== */
+    .slider-container {
+        margin-bottom: 2rem;
+    }
+    .slick-dots {
+        margin-top: 1rem;
+    }
+    #how-it-works {
+        padding-top: 8rem;
+    }
+    .section-four .title h3 {
+        margin-bottom: 1rem;
+    }
+    .section-four .title h2 {
+        margin-bottom: 2rem;
+    }
+    .slide .circle {
+        margin-top: -2.5rem;
+        width: 5rem;
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .slide .item-b .text {
+        line-height: 3.8rem;
+        margin: 2rem auto;
+    }
+    /* ==== SECTION FIVE ACTIVATE ==== */
+    .section-five {
+        padding: 12rem 2rem;
+    }
+    .section-five .store-badges img {
+        display: block;
+        width: 20rem;
+        height: auto;
+    }
+    .section-five h3 {
+        margin-bottom: 2rem;
+    }
+    .thrive-app-logo {
+        width: 16rem;
+        height: auto;
+        margin: 0 auto 0 1.5rem;
+    }
+    .section-five .store-badges img:first-of-type {
+        margin-right: 0rem;
+    }
+    /* ==== SECTION SIX FAQ ====*/
+    .section-six {
+        padding: 12rem 2rem;
+    }
+    .section-six .faq-content .question-collapsible .question {
+        grid-auto-flow: row;
+    }
+    .section-six .faq-content .question-wrapper {
+        padding-bottom: 2rem;
+    }
+    .section-six i {
+        justify-self: center;
+        margin-top: 1.6rem;
+        width: 2.6rem;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        font-size: 2.6rem;
+    }
+    .more-questions {
+        grid-auto-flow: row;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .more-questions .item-b {
+        margin-top: 2rem;
+    }
+    .section-six button {
+        justify-self: center;
+    }
+    #chevron {
+        width: 6rem;
+        height: auto;
+    }
+    /* ==== FOOTER ====*/
+    footer {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+    footer .line {
+        margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+     .slider .item-a img:nth-of-type(2) {
+        width: 20rem;
+        height: auto;
+    }
+    
+    .badge {
+        width: 16rem;
+        height: 16rem;
+    }
+    .badge img {
+        width: 3rem;
+        height: 3rem;
+        margin: 2rem auto .5rem auto;
+    }
+    .badge p:first-of-type {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .badge p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    
+    .section-one .item-c{
+        justify-self:start;
+        margin-left: -3rem;
+        z-index: 300;
+    }
+}

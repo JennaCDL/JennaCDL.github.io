@@ -1,0 +1,840 @@
+/*============MEYER'S RESET============*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 67.5%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*============HTML===========*/
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 62.5%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+/*============FONTS============*/
+
+h2 {
+    font-size: 10rem;
+    font-weight: 900;
+    line-height: 10rem;
+    color: #000;
+    text-align: center;
+}
+
+h3 {
+    font-size: 4.4rem;
+    font-weight: 400;
+    line-height: 4.8rem;
+    color: #000;
+}
+
+h4 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #000;
+}
+
+h5 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: #000;
+}
+
+.nav-link {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3.0rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.activate-on-thrive .nav-link {
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+p {
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #000;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    font-weight: 900;
+}
+
+emphesis {
+    font-weight: 700;
+}
+
+.center {
+    text-align: center;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*============COLORS============*/
+
+.thrive-red {
+    background-color: #E53248;
+}
+
+.thrive-blue {
+    background-color: #00A69C;
+}
+
+.thrive-yellow {
+    background-color: #FAAF40;
+}
+
+.thrive-grey {
+    background-color: #F2F2F2;
+}
+
+.thrive-red-text {
+    color: #E53248;
+}
+
+.thrive-blue-text {
+    color: #00A69C;
+}
+
+.thrive-grey-text {
+    color: #606E71;
+}
+
+.thrive-white-text {
+    color: #fff;
+}
+
+
+/*============HEADER============*/
+
+#home {
+    padding-top: 2rem;
+    max-width: 130rem;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden
+}
+
+.thrive-rewards {
+    display: block;
+    width: 14.0rem;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 1.4rem;
+}
+
+.activate-on-thrive {
+    display: block;
+    float: right;
+    position: relative;
+    margin-top: -6rem;
+    padding-right: 2em;
+}
+
+.activate-on-thrive a {
+    vertical-align: middle;
+    line-height: 3.2rem;
+}
+
+.activate-on-thrive img {
+    vertical-align: bottom;
+    margin-left: .5rem;
+}
+
+
+/*============NAV BAR============*/
+
+.header {
+    height: auto;
+    width: 100%;
+}
+
+#main-nav {
+    z-index: 1000;
+}
+
+#main-nav .nav-bar {
+    display: block;
+    width: 100%;
+    height: 10rem;
+}
+
+#main-nav .nav-container {
+    max-width: 130rem;
+    text-align: center;
+    margin: 0 auto;
+    height: 10rem;
+}
+
+#main-nav .nav-bar li {
+    display: inline-block;
+    margin: 3rem;
+}
+
+#main-nav .nav-bar li:last-of-type {
+    margin: 1.9rem 3rem;
+}
+
+.logo {
+    vertical-align: bottom;
+    margin: 2.9rem 4.2rem 2.9rem 2.8rem;
+    display: none;
+}
+
+.cta {
+    padding: 1.4rem 2.8rem;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    border-radius: 4rem;
+}
+
+.cta:hover {
+    background-color: rgba(255, 255, 255, 100);
+}
+
+
+/*============GENERAL============*/
+
+section {
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+span h1 {
+    display: none;
+    visibility: hidden;
+}
+
+button {
+    background: transparent;
+    border: solid 0 transparent;
+    padding: 0;
+}
+
+button img {
+    vertical-align: middle;
+}
+
+
+/*============SECTION ONE============*/
+
+.section-one {
+    padding: 12.2rem 2rem 0 2rem;
+    margin: 0 auto;
+    max-width: 130rem;
+}
+
+.section-one h2 {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.section-one .container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-row-gap: 3rem;
+    justify-items: start;
+    grid-auto-flow: column;
+}
+
+.section-one .item-a {
+    grid-column: 1;
+    grid-row: 1 / 2;
+}
+
+.section-one .item-b {
+    display: grid;
+    grid-row-gap: 1rem;
+}
+
+.section-one .item-d {
+    grid-column: 2;
+    grid-row: 1 / 4;
+}
+
+.section-one .item-d img {
+    align-self: start;
+    justify-self: center;
+    max-width: 98%;
+}
+
+
+.section-one ul {
+    display: grid;
+}
+
+.section-one ul li {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    grid-gap: 1rem;
+    align-items: center;
+}
+
+.section-one ul li p {
+    margin-top: 1rem;
+}
+
+.badge {
+    display: block;
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.badge h2 {
+    text-align: center;
+    margin: 0rem;
+}
+
+.badge p:first-of-type {
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+.badge img {
+    width: 5rem;
+    height: 5rem;
+    margin: 3.2rem auto 1.2rem auto;
+}
+
+
+/* ===== ANGLED GREY BACKGROUND ====*/
+
+.angled-section {
+    position: static;
+    z-index: 1;
+    -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+}
+
+
+/* ===== SECTION TWO ====*/
+
+.section-two {
+    margin: 12rem auto 0 auto;
+    padding: 19.1rem 2rem 0 2rem;
+}
+
+.section-two .center {
+    margin-bottom: 4rem;
+}
+
+.section-two .banner {
+    text-align: center;
+    max-width: 106.1rem;
+    margin: 6rem auto;
+    padding: 0 1rem 0 1rem;
+}
+
+.section-two .inner-banner {
+    background: white;
+    padding: 1rem;
+}
+
+.section-two .banner h3 {
+    padding-top: 5.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-two .banner p {
+    padding-bottom: 5.5rem;
+}
+
+.section-two .benefits {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 7rem;
+    grid-column-gap: 4rem;
+    max-width: 75rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.section-two .benefits .benefit {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    align-content: center;
+    grid-column-gap: 3rem;
+}
+
+.section-two .benefits .benefit img {
+    margin: 0 auto;
+}
+
+
+/* ===== SECTION THREE ====*/
+
+.section-three {
+    max-width: 130rem;
+    padding: 18rem 2rem;
+}
+
+.section-three .ways-to-earn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 4rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.section-three .ways-to-earn h3 {
+    margin: 2rem auto 2rem auto;
+}
+
+
+/* ==== SECTION FOUR ====*/
+
+#how-it-works {
+    padding-top: 17rem;
+}
+
+.section-four .title h3 {
+    margin-bottom: 3rem;
+}
+
+.section-four .title h2 {
+    margin-bottom: 5rem;
+}
+
+.slider-container {
+    margin-bottom: 12rem;
+    padding: 0 2rem;
+}
+
+.slider {
+    max-width: 110rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.slider img {
+    height: auto;
+    max-width: 33rem;
+}
+
+.slider .item-a img:nth-of-type(2) {
+    max-width: 0;
+    height: auto
+}
+
+.slick-initialized .slick-slide {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.slide .item-a {
+    justify-self: center;
+    margin-left: 3rem;
+}
+
+.slide .item-b {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 18rem 0 0 4.8rem;
+    align-self: start;
+}
+
+.slide .item-b .text {
+    line-height: 6rem;
+    margin-left: 1.5rem;
+    margin-top: 2.6rem;
+}
+
+.slide .circle {
+    height: 10rem;
+    width: 10rem;
+    line-height: 10rem;
+    border-radius: 50%;
+}
+
+.slick-dots {
+    margin-top: 3rem;
+}
+
+
+/* ===== SECTION FIVE ====*/
+
+.section-five {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 14.5rem 2rem 16rem 2rem;
+    margin: 0 auto;
+}
+
+.section-five .left {
+    justify-self: center;
+}
+
+.section-five h3 {
+    margin-bottom: 3rem;
+}
+
+.section-five .item-c {
+    justify-self: center;
+    align-self: end;
+}
+
+.section-five .store-badges img:first-of-type {
+    margin-right: 1.4rem;
+}
+
+
+/* ===== SECTION SIX ====*/
+
+.section-six {
+    padding: 12rem 2rem 7rem 2rem;
+    display: grid;
+    max-width: 110rem;
+}
+
+.section-six h2 {
+    margin-bottom: 3.5rem;
+}
+
+.section-six .title h3 {
+    margin-bottom: 3rem;
+}
+
+.section-six a {
+    text-decoration: none;
+    color: #000;
+}
+
+.section-six .faq-content {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.section-six button {
+    justify-self: right;
+}
+
+.section-six .faq-content .question-wrapper {
+    display: grid;
+    width: 100%;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid #000;
+}
+
+.section-six .faq-content .question-collapsible .question {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 3rem auto 0 auto;
+    max-width: 90rem;
+}
+
+.section-six .faq-content .question-collapsible .question h4 {
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.question-collapsible .card-header {
+    max-width: 90rem;
+    margin: auto;
+}
+
+.question-content {
+    max-width: 90rem;
+    margin: auto;
+}
+
+.question-content ol {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #000;
+    list-style-type: decimal;
+    margin-left: 4rem;
+}
+
+.question-content .answer {
+    margin: 4rem 0 1rem 0;
+}
+
+.question-content ul {
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: #000;
+    margin-left: 4rem;
+    list-style-type: disc;
+}
+
+.question-content li {
+    margin: 1rem 0;
+}
+
+.section-six .chevron-open {
+    transform: rotate(180deg);
+}
+
+.section-six i {
+    width: 4rem;
+    height: 4rem;
+    font-size: 4rem;
+    align-self: center;
+    justify-self: end;
+}
+
+.more-questions {
+    display: grid;
+    grid-auto-flow: column;
+    max-width: 80em;
+    margin: 10rem auto 5rem auto;
+}
+
+.more-questions .item-a {
+    align-self: center;
+    justify-self: center;
+}
+
+.more-questions .item-b {
+    justify-self: center;
+}
+
+#talk-to-us {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 300;
+    color: white;
+    background: black;
+    padding: 2.5rem 5.5rem;
+}
+
+
+/*== REMOVE BOOTSTRAP STYLING ==*/
+
+.card-header {
+    padding: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .00);
+    border-bottom: 0;
+}
+
+.card-body {
+    flex: none;
+    padding: 0;
+}
+
+
+/* ===== FOOTER ====*/
+
+footer {
+    max-width: 110rem;
+    margin: 0rem auto 10rem auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+footer .left {
+    margin-left: 1.6rem;
+    max-width: 54rem;
+}
+
+footer .right {
+    margin-left: 1.6rem;
+    max-width: 54rem;
+}
+
+footer ul {
+    margin-top: 2.8rem;
+}
+
+footer li {
+    margin-bottom: 2.2rem;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    font-weight: 700;
+}
+
+footer .store-badges {
+    margin-top: 10rem;
+}
+
+footer .store-badges img {
+    width: 16.1rem;
+    height: 4.7rem;
+    margin-right: 1rem;
+}
+
+footer .line {
+    max-width: 54rem;
+    height: 2px;
+    background-color: #979797;
+    margin-top: 7.2rem;
+}
