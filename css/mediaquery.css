@@ -512,7 +512,7 @@
     }
     .section-one .left {
         margin-left: 2rem;
-        grid-row-gap: 1rem
+        grid-row-gap: 1.5rem
     }
     .section-one ul li {
         grid-auto-flow: row;
@@ -547,6 +547,9 @@
         width: 100%;
     }
     
+    .section-one .item-c{
+        grid-row-gap: 1.5rem;
+    }
     .section-one .item-c .cta{
     border: 2px solid #E53248; 
     padding: 1rem 1rem;
