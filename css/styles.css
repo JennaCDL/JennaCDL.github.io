@@ -451,6 +451,27 @@ button img {
     margin: 3.2rem auto 1.2rem auto;
 }
 
+.section-one .item-c{
+    display: grid;
+    grid-auto-flow: row;
+    align-content: center;
+    text-align: center;
+     grid-row-gap: 3rem;
+}
+
+.section-one .item-c .cta{
+    border: 2px solid #E53248; 
+    padding: 1.5rem 3rem;
+    color: #E53248;
+    display: inline-block;
+    align-self: center;  
+}
+
+.section-one .item-c .cta:hover{
+    background-color: #E53248;
+    color: white; 
+}
+
 /* ===== ANGLED GREY BACKGROUND ====*/
 
 .angled-section {
