@@ -675,6 +675,10 @@
         line-height: 2.6rem;
         font-size: 2.6rem;
     }
+    
+    .section-five a{
+        justify-self: center;
+    }
     .more-questions {
         grid-auto-flow: row;
         justify-content: center;
