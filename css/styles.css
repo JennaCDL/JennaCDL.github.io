@@ -733,7 +733,10 @@ button img {
     width: 4rem;
     height: 4rem;
     font-size: 4rem;
-    align-self: center;
+}
+
+.section-five a{
+   align-self: center;
     justify-self: end;
 }
 
